@@ -27,7 +27,7 @@ parser.add_argument('--model', type=str, default=None)
 args = parser.parse_args()
 
 logger.info('Initializing ranker...')
-ranker = retriever.get_class('tfidf')(tfidf_path='../DB/simple.npz')
+ranker = retriever.get_class('tfidf')(tfidf_path='../DB/htts.npz')
 
 
 def fetch_elastic_text(doc_id):
