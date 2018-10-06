@@ -1,6 +1,6 @@
 # DrQA-Elastic
 
-#Steps to push data to ElasticSearch:
+<b>Steps to push data to ElasticSearch:</b>
 
 python ./DrQA-Elastic/build_elastic_db.py ../articlesections.txt ../DB/elastic
 python ./DrQA-Elastic/build_elastic_tfidf.py ../DB/elastic ../DB
